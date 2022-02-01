@@ -18,7 +18,7 @@
   </head>
   <body>
     <section id="navbar">
-      <div class="navbar navbar-expand-lg sticky fixed-top r-nav">
+      <div class="navbar navbar-expand-lg bg-dark fixed-top r-nav">
         <div class="container">
           <a href="#" class="navbar-brand">Krishna</a>
           <button
@@ -59,9 +59,9 @@
         <div class="row">
           <div class="col text-center">
             <div class="content-box">
-              <h4>Welcome</h4>
-              <h1>I'm  <span class="typed-words"></span></h1>
-              <p>
+              <h4 class="py-3" style="font-size: 40px;">Welcome</h4>
+              <h1>I'm <span class="typed-words" style="color: #333333;"></span></h1>
+              <p class="py-2">
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                 Aspernatur itaque repellendus perspiciatis totam dolorem tempore
                 vel eos doloribus adipisci voluptatum, maiores explicabo maxime
@@ -73,14 +73,55 @@
         </div>
       </div>
     </header>
-    
+    <!-- about section -->
+    <section class="about r-p" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <img src="/img/about1.jpg" class="img-fluid img-thumbnail" alt="" />
+          </div>
+          <div class="col-lg-6 px-5">
+            <h2 class="text-center" style="font-size: 50px;">About me</h2>
+            <h4 class="py-2" style="font-size: 30px;">
+              Hello! <span style="color: brown">I'm Krishna Pokharel </span>
+            </h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Accusamus, architecto!
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Perspiciatis dolores alias nisi dolorum temporibus.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
+              praesentium fugit debitis ullam quia maiores.
+            </p>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum
+              corporis quisquam incidunt magni mollitia. Culpa atque, ipsum
+              quaerat necessitatibus natus unde aspernatur sint ipsam deserunt
+              rem recusandae odit dolorum? Aperiam!
+            </p>
+            <div>
+              <ul class="list-inline">
+                <li class="list-inline-item mx-4"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                <li class="list-inline-item mx-4"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li class="list-inline-item mx-4"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                <li class="list-inline-item mx-4"><a target="_blank" href="https://www.linkedin.com/in/krishna-pokharel-0ab832230/"><i class="fab fa-linkedin"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- linking js -->
 
     <script src="/lib/jquery-3.6.0.js"></script>
-    <script src="/lib/popper.min.js"></script>
-    <script src="/js/script.js"></script>
-
     <script src="/lib/js/bootstrap.min.js"></script>
+    <script src="/lib/typed.js"></script>
+
+    <script src="/js/script.js"></script>
   </body>
 </html>
