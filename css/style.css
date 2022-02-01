@@ -14,11 +14,9 @@ p{
     font-family: 'Nunito',sans-serif;
     font-size: 20px;
     line-height: 30px;
-    color: #6c757d;
+    color: #b8bbbe;
 }
-*{
-    background: black;
-}
+
 
 
 /* navigation */
@@ -39,11 +37,30 @@ p{
     transition: 0.5s all ease-in;
 }
 .r-nav .navbar-nav li a:hover{
-    color: #6c757d;
+    color: #000;
 }
-.stickyadd{
-    background-color: #fff;
+.r-nav .stickyadd{
+    background: #fff;
+
+   
     padding: 15px 0 ;
     transition: 2s all;
     
 }
+/* header section */
+header{
+    height: 100vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('/img/background.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+header .header-content{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
