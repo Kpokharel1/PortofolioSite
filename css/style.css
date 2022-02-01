@@ -1,0 +1,49 @@
+/* linking google-fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,100&display=swap');
+
+/* base rules */
+*{
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat',sans-serif;
+}
+p{
+    font-family: 'Nunito',sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    color: #6c757d;
+}
+*{
+    background: black;
+}
+
+
+/* navigation */
+ .r-nav{
+    background: transparent;
+    padding: 20px 0;
+    transition: .5s all;
+}
+.r-nav .navbar-brand{
+    font-size: 40px;
+    color: #fff;
+}
+.r-nav .navbar-nav li{
+    margin-top: 10px;
+}
+.r-nav .navbar-nav li a{
+    color: #fff;
+    transition: 0.5s all ease-in;
+}
+.r-nav .navbar-nav li a:hover{
+    color: #6c757d;
+}
+.stickyadd{
+    background-color: #fff;
+    padding: 15px 0 ;
+    transition: 2s all;
+    
+}
